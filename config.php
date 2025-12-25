@@ -1,11 +1,12 @@
 <?php
-// Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USERNAME', 'rupeeqat_employee_attendance');
-define('DB_PASSWORD', '4yknR4hLtwCKRjSHbdM5');
-define('DB_NAME', 'rupeeqat_employee_attendance');
+// Database configuration (DO NOT put real credentials in public repo)
 
-// Create connection using defined constants
+define('DB_HOST', 'localhost');
+define('DB_USERNAME', 'YOUR_DB_USERNAME');
+define('DB_PASSWORD', 'YOUR_DB_PASSWORD');
+define('DB_NAME', 'YOUR_DB_NAME');
+
+// Create connection
 $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
